@@ -1,0 +1,22 @@
+.external{
+    background-color: white;
+    margin-top: 40px;
+    width: 1400px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 18px;
+    display: flex; 
+    flex-direction: column; 
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+
+
+.internal{
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+    /* margin-left: -40px; */
+}

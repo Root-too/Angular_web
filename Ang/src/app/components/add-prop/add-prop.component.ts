@@ -12,4 +12,4 @@ export class AddPropComponent implements OnInit {
   ngOnInit() {
   }
 
-}
+} 

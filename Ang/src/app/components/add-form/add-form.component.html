@@ -1,0 +1,36 @@
+<div class="form">
+    <div class="text">Add Property</div>
+    <form class="inner-form" (ngSubmit)="onSubmit()">
+        <label style="margin-top: 50px; font-size: 20px">Property Name</label>
+        <br><br>
+        <input type="text" class="form-input" name="name" [(ngModel)]="name" placeholder="Property Name">
+        <br><br>
+        <label style="margin-top: 50px; font-size: 20px">Location</label>
+        <br><br>
+        <input type="text" class="form-input" name="location" [(ngModel)]="location" placeholder="Location">
+        <br><br>
+        
+        <label style="margin-top: 50px; font-size: 20px">BHK</label>
+        <br><br>
+        <input type="text" class="form-input" name="bhk" [(ngModel)]="bhk" placeholder="BHK">
+        <br><br>
+        <label style="margin-top: 50px; font-size: 20px">Carpet Area</label>
+        <br><br>
+        <input type="text" class="form-input" name="area" [(ngModel)]="area" placeholder="Carpet Area">
+        <br><br>
+        <label style="margin-top: 50px; font-size: 20px">Price</label>
+        <br><br>
+        <input type="text" class="form-input" name="price" [(ngModel)]="price" placeholder="Price">
+        <br><br>
+        <label style="margin-top: 50px; font-size: 20px">Age of Property</label>
+        <br><br>
+        <input type="text" class="form-input" name="age" [(ngModel)]="age" placeholder="Age of Property">
+        <br><br>
+        <!-- <label style="margin-top: 50px; font-size: 20px">Add Image</label>
+        <br><br>
+        <input type="file" name="image">
+        <br><br> -->
+        <input type="submit" value="Submit">
+
+</form>
+</div>

@@ -1,3 +1,4 @@
-<ul *ngFor = "let prop of props">
-    <li>{{ prop.name }}</li>
-</ul>
+<app-prop-item *ngFor = "let prop of props" [prop]="prop">
+</app-prop-item>
+
+<app-add-form (addForm)="addForm($event)"></app-add-form>

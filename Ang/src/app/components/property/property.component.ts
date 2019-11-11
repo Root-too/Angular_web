@@ -16,17 +16,37 @@ export class PropertyComponent implements OnInit {
     this.props = [
       {
         id: 1,
-        name: 'property 1'
+        name: 'Vikrant Heights',
+        location: 'Ghatkopar',
+        bhk: 2,
+        price: 80000,
+        area: 1200,
+        age: 5
       },
       {
         id: 2,
-        name: 'property 2'
+        name: 'Anand Hills',
+        location: 'Dadar',
+        bhk: 2,
+        price: 60000,
+        area: 1100,
+        age: 3
       },
       {
         id: 3,
-        name: 'property 3'
+        name: 'Roshan Heights',
+        location: 'Chembur',
+        bhk: 1,
+        price: 75000,
+        area: 1000,
+        age: 7
       }
     ]
+  }
+
+
+  addForm(prop:Prop) {
+    this.props.push(prop);
   }
   
 }
