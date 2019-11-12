@@ -6,4 +6,5 @@ export class Prop{
     price: number;
     area: number;
     age: number;
+    image:string;
 }

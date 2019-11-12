@@ -21,7 +21,8 @@ export class PropertyComponent implements OnInit {
         bhk: 2,
         price: 80000,
         area: 1200,
-        age: 5
+        age: 5,
+        image:'Ang/src/app/uploads/house_1.png'
       },
       {
         id: 2,
@@ -30,7 +31,8 @@ export class PropertyComponent implements OnInit {
         bhk: 2,
         price: 60000,
         area: 1100,
-        age: 3
+        age: 3,
+        image:'../../uploads/house7.png'
       },
       {
         id: 3,
@@ -39,7 +41,8 @@ export class PropertyComponent implements OnInit {
         bhk: 1,
         price: 75000,
         area: 1000,
-        age: 7
+        age: 7,
+        image:'../../uploads/house8.png'
       }
     ]
   }
